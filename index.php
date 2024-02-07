@@ -34,7 +34,6 @@
         <div class="row">
           <div class="col-12"> 
             <h2>Encuesta social sobre: 'La importancia de un estilo de vida saludable'</h2>
-
           </div>
         </div>
       </div>
