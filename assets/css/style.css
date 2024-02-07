@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background-color: #fcfcfc;
+}
+
+.head {
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(51, 61, 96, 0.15);
+}
+
+.answers {
+  max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.answers button {
+  padding: 10px 15px;
+    border: none;
+    background: #50bbff;
+    color: white;
+
+} 
+.answers textarea {
+      width: 100%;
+    background: rgb(247, 247, 247);
+    border: 2px solid rgb(229, 229, 229);
+    border-radius: -30px;
+    height: 139px;
+    margin-bottom: 20px;
+
+}
+.answers .answer:not(:last-child) {
+  margin-bottom: 10px;
+}
+.answers .answer button {
+  text-align: start;
+  border: none;
+  background-color: transparent;
+  padding: 5px 25px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #e5e5e5;
+}/*# sourceMappingURL=style.css.map */

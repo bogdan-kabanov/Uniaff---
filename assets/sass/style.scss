@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background-color: #fcfcfc;
+}
+
+.head {
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(51,61,96,0.15);
+}
+
+.answers {
+    max-width: 600px;
+    margin-top: 20px;
+    .answer {
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        button {
+          text-align: start;
+            border: none;
+            background-color: transparent;
+            padding: 5px 25px;
+            width: 100%;
+            background-color: #ffffffff;
+            border-radius: 10px;
+            border: 2px solid #e5e5e5;
+        }
+    }
+}
